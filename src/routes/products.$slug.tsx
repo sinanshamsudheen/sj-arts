@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowLeft, Check, MessageCircle, Truck, Clock, Sparkles } from "lucide-react";
-import { PRODUCTS } from "@/lib/catalog";
+import { PRODUCTS, type Product } from "@/lib/catalog";
 import { whatsappOrderUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/products/$slug")({
@@ -37,7 +37,8 @@ export const Route = createFileRoute("/products/$slug")({
 function ProductPage() {
   const { product } = Route.useLoaderData();
   const [active, setActive] = useState(0);
-  const images = product.gallery.length ? product.gallery : [product.image];
+  const p: Product = product;
+  const images: string[] = p.gallery.length ? p.gallery : [p.image];
 
   return (
     <section className="container-luxury py-16 md:py-24">
@@ -59,7 +60,7 @@ function ProductPage() {
           </div>
           {images.length > 1 && (
             <div className="mt-4 grid grid-cols-4 gap-3">
-              {images.map((src, i) => (
+            {images.map((src: string, i: number) => (
                 <button
                   key={i}
                   onClick={() => setActive(i)}
@@ -89,7 +90,7 @@ function ProductPage() {
           <div className="mt-9">
             <p className="eyebrow">Hand-finished details</p>
             <ul className="mt-4 space-y-3">
-              {product.features.map((f) => (
+              {p.features.map((f: string) => (
                 <li key={f} className="flex items-start gap-3 text-sm text-foreground">
                   <Check className="mt-0.5 h-4 w-4 flex-none text-accent" /> {f}
                 </li>
