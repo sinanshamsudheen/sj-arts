@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, Sparkles, MessageCircle, Heart, Star } from "lucide-react";
-import heroGift from "@/assets/hero-gift.jpg";
+import heroGift from "@/assets/sj/sj__arts_-20260530-0008.jpg";
 import {
   OCCASIONS,
   COLLECTIONS,

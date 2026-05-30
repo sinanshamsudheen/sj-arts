@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import heroGift from "@/assets/hero-gift.jpg";
-import occWedding from "@/assets/occ-wedding.jpg";
+import heroGift from "@/assets/sj/sj__arts_-20260530-0008.jpg";
+import occWedding from "@/assets/sj/sj__arts_-20260530-0002.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({

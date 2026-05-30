@@ -1,17 +1,17 @@
-import heroGift from "@/assets/hero-gift.jpg";
-import occWedding from "@/assets/occ-wedding.jpg";
-import occEngagement from "@/assets/occ-engagement.jpg";
-import occBirthday from "@/assets/occ-birthday.jpg";
-import occAnniversary from "@/assets/occ-anniversary.jpg";
-import occRamadan from "@/assets/occ-ramadan.jpg";
-import occSpecial from "@/assets/occ-special.jpg";
-import prodBouquet from "@/assets/prod-bouquet.jpg";
-import prodFrame from "@/assets/prod-frame.jpg";
-import prodSavedate from "@/assets/prod-savedate.jpg";
-import prodCouple from "@/assets/prod-couple.jpg";
-import prodBox from "@/assets/prod-box.jpg";
-import prodWedding from "@/assets/prod-wedding.jpg";
-import prodRamadan from "@/assets/prod-ramadan.jpg";
+import heroGift from "@/assets/sj/sj__arts_-20260530-0008.jpg";
+import occWedding from "@/assets/sj/sj__arts_-20260530-0002.jpg";
+import occEngagement from "@/assets/sj/sj__arts_-20260530-0011.jpg";
+import occBirthday from "@/assets/sj/sj__arts_-20260530-0010.jpg";
+import occAnniversary from "@/assets/sj/sj__arts_-20260530-0003.jpg";
+import occRamadan from "@/assets/sj/sj__arts_-20260530-0012.jpg";
+import occSpecial from "@/assets/sj/sj__arts_-20260530-0016.jpg";
+import prodBouquet from "@/assets/sj/sj__arts_-20260530-0014.jpg";
+import prodFrame from "@/assets/sj/sj__arts_-20260530-0004.jpg";
+import prodSavedate from "@/assets/sj/sj__arts_-20260530-0006.jpg";
+import prodCouple from "@/assets/sj/sj__arts_-20260530-0001.jpg";
+import prodBox from "@/assets/sj/sj__arts_-20260530-0005.jpg";
+import prodWedding from "@/assets/sj/sj__arts_-20260530-0020.jpg";
+import prodRamadan from "@/assets/sj/sj__arts_-20260530-0012.jpg";
 
 export const IMG = {
   heroGift,
