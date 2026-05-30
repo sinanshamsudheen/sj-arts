@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "919567510016"; // +91 95675 10016
+export const WHATSAPP_NUMBER = "918590858540"; // +91 85908 58540
 
 export function whatsappUrl(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
