@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "bun run build && echo '=== .vercel/output/config.json ===' && cat .vercel/output/config.json 2>/dev/null || echo 'MISSING' && echo '=== functions ===' && find .vercel/output/functions -maxdepth 2 2>/dev/null || echo 'NO FUNCTIONS'",
+  "buildCommand": "bun run build",
   "installCommand": "bun install",
   "redirects": [
     { "source": "/favicon.ico", "destination": "/favicon.jpeg", "permanent": true }
