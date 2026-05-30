@@ -1,4 +1,7 @@
 {
   "buildCommand": "bun run build",
-  "installCommand": "bun install"
+  "installCommand": "bun install",
+  "redirects": [
+    { "source": "/favicon.ico", "destination": "/favicon.jpeg", "permanent": true }
+  ]
 }
